@@ -8,6 +8,7 @@ import imagecv from "./cv-image.png"
 const resumeLink =
   "https://github.com/philtaboada/CV/raw/main/PhilTaboadacv.pdf";
 
+function ResumeNew() {
   return (
     <div>
       <Container fluid className="resume-section">
