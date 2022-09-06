@@ -21,16 +21,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={webmusic}
-              isBlog={false}
-              title="Web Music"
-              description="One of my last projects consuming a Deezer API, and it has a music player."
-              ghLink="https://github.com/philtaboada/Deezer-App"
-              demoLink="https://deezer-app-taboada.netlify.app/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -74,6 +65,17 @@ function Projects() {
               description="One of my first Apps made with React, it gives you a sentence randomly."
               ghLink="https://github.com/philtaboada/Quotes-react"
               demoLink="https://dainty-moxie-92ee2f.netlify.app/"
+            />
+          </Col>
+
+<Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={webmusic}
+              isBlog={false}
+              title="Web Music"
+              description="One of my last projects consuming a Deezer API, and it has a music player."
+              ghLink="https://github.com/philtaboada/Deezer-App"
+              demoLink="https://deezer-app-taboada.netlify.app/"
             />
           </Col>
 
