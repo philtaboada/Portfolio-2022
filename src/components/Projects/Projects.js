@@ -72,10 +72,10 @@ function Projects() {
             <ProjectCard
               imgPath={webmusic}
               isBlog={false}
-              title="Web Music"
-              description="One of my last projects consuming a Deezer API, and it has a music player."
-              ghLink="https://github.com/philtaboada/Deezer-App"
-              demoLink="https://deezer-app-taboada.netlify.app/"
+              title="Video Player"
+              description="One of my last projects consuming a Youtube API, and it has a music player."
+              ghLink="https://github.com/philtaboada/VideoApp"
+              demoLink="https://vide-oplayer.netlify.app/"
             />
           </Col>
 
