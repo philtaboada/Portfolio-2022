@@ -25,6 +25,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={profile}
+              isBlog={false}
+              title="Pokedex"
+              description="This app was created with diferents technologies like, React, Tailwind, Redux"
+              ghLink="https://github.com/philtaboada/pokedex"
+              demoLink="https://vocal-gnome-c9c905.netlify.app/" 
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={rick}
               isBlog={false}
               title="API with Rick & Morty"
@@ -50,10 +61,10 @@ function Projects() {
             <ProjectCard
               imgPath={mentor}
               isBlog={false}
-              title="NFT-card"
-              description="This is a very simple Card, it was a Frontend Mentor challenge."
-              ghLink="https://github.com/philtaboada/NFT-project"
-              demoLink="https://lustrous-daifuku-8c5433.netlify.app/"
+              title="Memory Game"
+              description="This project is easy game called Memory Game, created only with react and CSS and Sounds integrated."
+              ghLink="https://github.com/philtaboada/MemoryCard"
+              demoLink="https://dreamy-faloodeh-2eec52.netlify.app/"
             />
           </Col>
 
@@ -68,7 +79,7 @@ function Projects() {
             />
           </Col>
 
-<Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={webmusic}
               isBlog={false}
@@ -79,16 +90,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={profile}
-              isBlog={false}
-              title="First Personal Portfolio"
-              description="My first portfolio in React."
-              ghLink="https://github.com/philtaboada/My-portfolio"
-              demoLink="https://phil-taboada.netlify.app/" 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
