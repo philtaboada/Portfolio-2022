@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import webmusic from "../../Assets/Projects/reproductordemusica.png";
+import videoplayer from "../../Assets/Projects/videoplayer.png";
 import wheter from "../../Assets/Projects/wheter.png";
-import profile from "../../Assets/Projects/First-Profile.png";
-import mentor from "../../Assets/Projects/mentor-cha.png";
+import pokedex from "../../Assets/Projects/pokedex.png";  
+import memorygame from "../../Assets/Projects/memorygame.png";
 import quote from "../../Assets/Projects/Quotes.png";
 import rick from "../../Assets/Projects/rickyandmorty.png";
 
@@ -22,10 +22,20 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={videoplayer}
+              isBlog={false}
+              title="Video Player"
+              description="One of my last projects consuming a Youtube API, and it has a music player."
+              ghLink="https://github.com/philtaboada/VideoApp"
+              demoLink="https://vide-oplayer.netlify.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={profile}
+              imgPath={pokedex}
               isBlog={false}
               title="Pokedex"
               description="This app was created with diferents technologies like, React, Tailwind, Redux"
@@ -59,7 +69,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={mentor}
+              imgPath={memorygame}
               isBlog={false}
               title="Memory Game"
               description="This project is easy game called Memory Game, created only with react and CSS and Sounds integrated."
@@ -79,16 +89,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={webmusic}
-              isBlog={false}
-              title="Video Player"
-              description="One of my last projects consuming a Youtube API, and it has a music player."
-              ghLink="https://github.com/philtaboada/VideoApp"
-              demoLink="https://vide-oplayer.netlify.app/"
-            />
-          </Col>
 
         </Row>
       </Container>
