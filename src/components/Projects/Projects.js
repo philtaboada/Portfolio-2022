@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import videoplayer from "../../Assets/Projects/videoplayer.png";
-import wheter from "../../Assets/Projects/wheter.png";
+import NogalWeb from "../../Assets/Projects/nogal.png";
 import pokedex from "../../Assets/Projects/pokedex.png";  
 import memorygame from "../../Assets/Projects/memorygame.png";
-import quote from "../../Assets/Projects/Quotes.png";
 import rick from "../../Assets/Projects/rickyandmorty.png";
+import AmazonClone from "../../Assets/Projects/Amazon-clon.png";
 
 function Projects() {
   return (
@@ -35,35 +35,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={AmazonClone}
+              isBlog={false}
+              title="Mini-Amazon"
+              description="This project was created with React, Firebase, Stripe, and Material UI. It is a mini Amazon, where you can add products to the cart and pay with Stripe."
+              ghLink="https://github.com/philtaboada/E-commerce-Firebase/"
+              demoLink="https://e-commerce-firebase.vercel.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pokedex}
               isBlog={false}
               title="Pokedex"
               description="This app was created with diferents technologies like, React, Tailwind, Redux"
               ghLink="https://github.com/philtaboada/pokedex"
               demoLink="https://vocal-gnome-c9c905.netlify.app/" 
-            />
-          </Col>
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={rick}
-              isBlog={false}
-              title="API with Rick & Morty"
-              description="Using the Ricky&Morty API, the data was displayed and we created a striking front. a search engine and some extra designs were added."
-              ghLink="https://github.com/philtaboada/Ricky-Morty-API"
-              demoLink="https://rickandmorty-api-2022.netlify.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={wheter}
-              isBlog={false}
-              title="Weather App"
-              description="A very interesting app, although with a not so good design, an API is used to display the data, this App takes your location and indicates the temperature of your city, you can calculate it in Kelvin and Celcius
-."
-              ghLink="https://github.com/philtaboada/Weather"
-              demoLink="https://gorgeous-tulumba-5fe6be.netlify.app/"              
             />
           </Col>
 
@@ -80,12 +68,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={quote}
+              imgPath={NogalWeb}
               isBlog={false}
-              title="Quotes-app"
-              description="One of my first Apps made with React, it gives you a sentence randomly."
-              ghLink="https://github.com/philtaboada/Quotes-react"
-              demoLink="https://dainty-moxie-92ee2f.netlify.app/"
+              title="Nogal Web"
+              description="This project was created with React, Tailwind is a only front-end project. Landing page for a company. Is very responsive."
+              ghLink="https://github.com/philtaboada/NogalCana"
+              demoLink="https://remarkable-nougat-d6d8cf.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rick}
+              isBlog={false}
+              title="API with Rick & Morty"
+              description="Using the Ricky&Morty API, the data was displayed and we created a striking front. a search engine and some extra designs were added."
+              ghLink="https://github.com/philtaboada/Ricky-Morty-API"
+              demoLink="https://rickandmorty-api-2022.netlify.app/"
             />
           </Col>
 
