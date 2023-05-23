@@ -6,7 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import imagecv from "./cv-image.png"
 
 const resumeLink =
-  "https://github.com/philtaboada/CV/raw/main/PhilTaboadacv.pdf";
+  "https://github.com/philtaboada/CV/raw/main/CV-PhilTaboada.pdf";
 
 function ResumeNew() {
   return (
