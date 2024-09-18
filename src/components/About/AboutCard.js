@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Phil Tabaoda </span>
             from <span className="purple"> Lima, Perú.</span>
-            <br />I am a Fronted Junior Developer and Academlo student.
+            <br />I am a Full Stack Developer with a passion for building products.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

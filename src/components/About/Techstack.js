@@ -3,30 +3,31 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
-  DiPython,
+  DiAngularSimple,
+  DiGoogleCloudPlatform,
 } from "react-icons/di";
 import {
-  SiCss3,
-  SiHtml5,
+  SiFastapi,
+  SiNestjs,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiAngularSimple />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiGoogleCloudPlatform/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+        <SiNestjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCss3 />
+        <SiFastapi />
       </Col>
     </Row>
   );
